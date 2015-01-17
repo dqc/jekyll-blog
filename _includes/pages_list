@@ -1,6 +1,6 @@
 {% for node in pages_list %}
   {% if group == null or group == node.group %}
-    {% if page.url ==node.url %}
+    {% if page.url == node.url %}
         <li>
           <a href="{{node.url}}" class="selected">{{node.title}}</a>
         </li>    
